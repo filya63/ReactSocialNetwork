@@ -1,0 +1,13 @@
+.navbar  {
+    grid-area: menu;
+    background-color: gray;
+}
+.menu a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+a.active {
+    color: white;
+}

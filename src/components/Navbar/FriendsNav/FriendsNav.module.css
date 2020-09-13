@@ -1,0 +1,12 @@
+.bestfriends {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.navfriendblock {
+    display: block;
+    background: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+}

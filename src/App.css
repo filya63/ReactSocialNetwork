@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.app-wrapper {
+  width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 40px 1fr;
+  grid-template-columns: 2fr 10fr;
+  grid-gap: 5px;
+  grid-template-areas:
+  "header header"
+  "menu content";
+}
+
+.app-wrapper-content {
+  grid-area: content;
+  background-color: yellow;
+}
